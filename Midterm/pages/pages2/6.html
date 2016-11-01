@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CATS WEB SITE</title>
+	<link rel="stylesheet" type="text/css" href="style4.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+    <script type="text/javascript" src="../jquery-3.1.1.min.js"></script>
+
+    <script>$(document).ready(function(){$(".menu-trigger").click(function(){$(this).toggleClass("active");$(this).next().toggleClass("onanimation");$('ul li').hide();$('ul li').each(function(i){$(this).delay(80*i).fadeIn(500);});});});</script>
+    </script>
+    
+</head>
+<h1></h1>
+<body>
+	<div class="logo"> 
+		<a href="../../index.html"><img src="../../images/logo.png" width="250px" ></a>
+	</div> 
+
+    <div class="gblnv_box">
+    <a class="menu-trigger" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <div class="gblnv_block">
+    <ul class="gblnv_list">
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+	
+    <video autoplay loop poster="cats.jpg" id="bgvid">
+    <source src="../movie/cats.webm" type="video/webm">
+    <source src="../movie/cats.mp4" type="video/mp4">
+    </video>
+
+
+    <!--This is a description page. I added pictures, article and button. Of course, you can go back to the top page when you click the logo.-->
+
+    <div class="overlay">
+    
+    <img src="../images/6.jpg" width="400px">
+    <img src="../images/6_2.jpg" width="400px">
+   
+    <div class="pic">
+    <h1>Sweet and Charming Cat Girls Bra & Panties
+
+</h1>
+    <p>
+
+New design is available now!
+For those who would like to be a cat! The beloved cat inner series now got a new design! Look at yourself with cat inner in the mirror and you would like to hug yourself. So lovely!</p>
+
+    <h2>$40.00</h2>
+    <select name="cnt">
+	<option value="0" selected>0</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	</select>
+	<input type="submit" value="Add to Shopping Bag">
+    
+    <a href="../blog.html">Back</a>
+    
+    </div>
+
+    
+
+</body>
+</html>

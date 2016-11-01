@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CATS WEB SITE</title>
+	<link rel="stylesheet" type="text/css" href="pages/style2.css">
+    <script type="text/javascript" src="pages/jquery-3.1.1.min.js"></script>
+    <script>$(document).ready(function(){$(".menu-trigger").click(function(){$(this).toggleClass("active");$(this).next().toggleClass("onanimation");$('ul li').hide();$('ul li').each(function(i){$(this).delay(80*i).fadeIn(500);});});});</script>
+
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+</head>
+
+<!--This is the top page. I put the video as a background to make viewers have fun. 
+Also, I used JavaScript and made a hamberger menu.-->
+
+<body>
+	<div class="logo"> 
+		<a href="index.html"><img src="images/logo.png" width="250px" ></a>
+	</div> 
+
+    <div class="gblnv_box">
+    <a class="menu-trigger" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <div class="gblnv_block">
+    <ul class="gblnv_list">
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/blog.html">Blog</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+	
+    <video autoplay loop poster="cats.jpg" id="bgvid">
+    <source src="pages/movie/cats.webm" type="video/webm">
+    <source src="pages/movie/cats.mp4" type="video/mp4">
+    </video>
+
+ 
+    </div>
+
+    
+
+</body>
+</html>

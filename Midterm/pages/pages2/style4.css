@@ -1,0 +1,161 @@
+body{
+	font-family: 'Abel', sans-serif;
+	
+	}
+.logo{
+	position: fixed;
+	top:-10px;
+	right: 20px;
+
+
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(../images/cat_hover1.jpg) no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.gblnv_box a {
+	margin: 25px;
+			}
+.gblnv_block{
+	position: absolute;
+	background-color: rgba(255,255,255,0.7);
+	color:black;
+	height: 230px;
+	width:180px;
+	display: none;
+	}
+.gblnv_block ul{
+	padding: 10px;
+	}
+.gblnv_block ul li{
+	line-height: 180%;
+	list-style: none;
+	}
+.gblnv_block ul li a{
+	color: black;
+	font-size: 20px;
+	line-height: 260%;
+	}
+
+.onanimation{
+	display: block;
+	}
+
+.menu-trigger,
+.menu-trigger span {
+	display: inline-block;
+	transition: all .4s;
+	box-sizing: border-box;
+	}
+.menu-trigger {
+	position: relative;
+	width: 60px;
+	height: 43px;}
+.menu-trigger span {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.menu-trigger span:nth-of-type(1) {
+	top: 0;
+}
+.menu-trigger span:nth-of-type(2) {
+	top: 20px;
+}
+.menu-trigger span:nth-of-type(3) {
+	bottom: 0;
+}
+
+
+.menu-trigger.active span:nth-of-type(1) {
+	-webkit-transform: translateY(20px) rotate(-45deg);
+	transform: translateY(20px) rotate(-45deg);
+}
+.menu-trigger.active span:nth-of-type(2) {
+	left: 50%;
+	opacity: 0;
+	-webkit-animation: active-menu-bar02 .8s forwards;
+	animation: active-menu-bar02 .8s forwards;
+}
+@-webkit-keyframes active-menu-bar02 {
+	100% {
+		height: 0;
+	}
+}
+@keyframes active-menu-bar02 {
+	100% {
+		height: 0;
+	}
+}
+.menu-trigger.active span:nth-of-type(3) {
+	-webkit-transform: translateY(-20px) rotate(45deg);
+	transform: translateY(-20px) rotate(45deg);
+}
+
+.overlay{
+	max-width: 900px;
+	height: 970px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 0px auto;
+	padding: 10px;
+	}
+.pic{max-width: 400px;
+	position: relative;
+	bottom: 870px;
+	left: 465px;}
+.pic p{	
+	float: left;
+	margin-top: 5px;
+}	
+
+.pic a{
+	color: black;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+
+}	
+
+.overlay1{
+	max-width: 900px;
+	height: 500px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 0px auto;
+	padding: 10px;
+	}
+.pic1{max-width: 400px;
+	position: relative;
+	bottom: 430px;
+	left: 465px;}
+.pic1 p{	
+	float: left;
+	margin-top: 5px;
+}	
+
+.pic1 a{
+	color: black;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+
+}
+
+img{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+}
+
+
+

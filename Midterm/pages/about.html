@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CATS WEB SITE</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script>$(document).ready(function(){$(".menu-trigger").click(function(){$(this).toggleClass("active");$(this).next().toggleClass("onanimation");$('ul li').hide();$('ul li').each(function(i){$(this).delay(80*i).fadeIn(500);});});});</script>
+
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+</head>
+<h1></h1>
+<body>
+	<div class="logo"> 
+		<a href="../index.html"><img src="../images/logo.png" width="250px" ></a>
+	</div> 
+
+    <div class="gblnv_box">
+    <a class="menu-trigger" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <div class="gblnv_block">
+    <ul class="gblnv_list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+	
+    <video autoplay loop poster="cats.jpg" id="bgvid">
+    <source src="movie/cats.webm" type="video/webm">
+    <source src="movie/cats.mp4" type="video/mp4">
+    </video>
+<!--This is About page. It explain about this website.-->
+
+    <div class="overlay">
+     <h1>Wellcome to our cat club!</h1>
+    <p>We created this website for everyone who...</p>
+    <ul>
+        <li>Loves cats!</li><br>
+        <li>wants to relieve stress by watching cats!</li><br>
+        <li>thinks your cats are the cutest in the world!</li><br>
+        <li>wants to have a cats in the future!</li><br>
+        <li>wants to became a cat!</li>
+
+    </ul><br>
+    <p>Our goal is creating a society that people and cats could live their happy life.<br>
+    →$1.00 of the sales amount will be transferred to "Felissimo Cats Foundation" for cats supporting activities. </p>
+    	
+    </div>
+
+    
+
+</body>
+</html>

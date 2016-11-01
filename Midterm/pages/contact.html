@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CATS WEB SITE</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script>$(document).ready(function(){$(".menu-trigger").click(function(){$(this).toggleClass("active");$(this).next().toggleClass("onanimation");$('ul li').hide();$('ul li').each(function(i){$(this).delay(80*i).fadeIn(500);});});});</script>
+
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+</head>
+<h1></h1>
+<body>
+    <div class="logo"> 
+        <a href="../index.html"><img src="../images/logo.png" width="250px" ></a>
+    </div> 
+
+    <div class="gblnv_box">
+    <a class="menu-trigger" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    </a>
+    <div class="gblnv_block">
+    <ul class="gblnv_list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+
+    
+    <video autoplay loop poster="cats.jpg" id="bgvid">
+    <source src="movie/cats.webm" type="video/webm">
+    <source src="movie/cats.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay2">
+
+    <h1>Contact</h1>
+    	<!--In this page, I put the form, because it might be easier for customers to contact with the company.-->
+	<p>As an internet based company, we prefer to handle all questions<br> regarding your order, products on our website or general information <br>about Cat club through the form provided below. This also works as a <br>great "paper-trail" for record keeping. Most messages are responded to <br>in less than 24 hours. You can fill out the form or send us an email at </p>
+	<p><b>info@catclub.com</b></p>
+	<p>If you must call, we are usually available Mon. - Fri. 10am - 4pm EST at 000-000-0000. <br>If you get a recording please leave your name, phone number, order number <br>and a brief message and we will get back to you as soon as possible.
+	</p>
+<form action="mailto:info@catclub.com" enctype="text/plain" method="post">
+<p><label>Mail Address
+<input type="text" name="E-Mail Address" value="" tabindex="0" accesskey="">
+</label>
+</p>
+
+<p><label>Name
+<input type="text" name="Name" value="" tabindex="1" accesskey="">
+</label></p>
+
+<p><label><br>
+<textarea name="title" rows="10" cols="60" tabindex="9" accesskey="i">
+</textarea>
+</label></p>
+
+<p>
+<input type="reset" value="Submit" tabindex="10" accesskey="s">
+</p>
+</form>
+
+    
+    
+
+</body>
+</html>
